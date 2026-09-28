@@ -55,3 +55,32 @@ household configuration.
 
 The script expects this repository cloned at `~/projects/scorebug-firmware`,
 or set `SCOREBOARD_RELEASE_DIR` to point elsewhere.
+
+## Setup release: 2026.09.27.6
+
+This release improves first-time setup:
+
+- Protected Wi-Fi requires a password; a saved password is reused only for
+  the same network. Known open networks allow a blank password.
+- Incomplete saves and failed connection tests leave previous choices intact.
+- Setup remains available once a phone has joined it.
+- Progress messages explain the connection test, which allows up to 40 seconds.
+- Save-triggered restarts do not accidentally activate the three-power-cycle
+  setup gesture.
+
+The setup network is **ScoreBug-XXXX**. If the page does not open by itself,
+open **http://192.168.67.1** in Safari or Chrome while connected to that network.
+**No Internet** is normal during setup. Enter the home or office Wi-Fi password,
+choose leagues and teams, then tap **Save and connect**.
+
+The release passed 27 regression checks. Fresh setup on the product test board
+was verified through password acceptance, saved teams, restart, reconnection,
+and repeated score downloads. The automatic phone popup is not guaranteed;
+manual browser access was verified. A separate physical unplug/replug check
+was not recorded.
+
+## Home boards are a separate channel
+
+This repository is only for ScoreBug product builds. The household boards use
+`dslansky/scoreboard-firmware`, a separate repository and manifest URL. Publishing
+here must not change that channel or flash any household board.
