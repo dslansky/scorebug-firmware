@@ -1,9 +1,9 @@
 {
-  "version": "2026.10.08.1",
-  "url": "https://raw.githubusercontent.com/dslansky/scorebug-firmware/main/releases/standalone-2026.10.08.1.bin",
-  "size": 1058448,
-  "sha256": "9c2f1a614b231b2573e0a816ba6d5c74446789027ca2b7dc1dd9bd92ef3f50e7",
-  "signature": "MEUCIQDObBdrIjFmRAHrtuNL2t3B5oOo7GaoNHjucOvh3DWDnAIgViPg9oYJrPHS6dSjj5bnRgf6Da1iTCepiI5w/oFRNvg=",
+  "version": "2026.10.08.2",
+  "url": "https://raw.githubusercontent.com/dslansky/scorebug-firmware/main/releases/standalone-2026.10.08.2.bin",
+  "size": 1058592,
+  "sha256": "b3ee62d8008cd23f21c5128353a5fc5b657e6eeea0c541d8235b6e62e491cc48",
+  "signature": "MEQCIEPrWs542MEBflmSh+vrZ0EzkRYZeLCYDDY7fVSW8UUBAiA0kapjc5pXhWCSiGYMOv5CjUGBBy9k9jpSw0aPMKqy2A==",
   "rollout": 72,
-  "notes": "Show the local settings address for six seconds on startup. Source 2266d06."
+  "notes": "Explain on startup how to open the local settings page from a phone; show full URL for ten seconds. Source ff1d18c."
 }
