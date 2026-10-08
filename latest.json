@@ -1,9 +1,9 @@
 {
-  "version": "2026.09.27.6",
-  "url": "https://raw.githubusercontent.com/dslansky/scorebug-firmware/main/releases/standalone-2026.09.27.6.bin",
-  "size": 1058144,
-  "sha256": "8f1c58ad2ae55b3ca6c0b312899105b9b05ae1523f0e39881e20a6383ceb3431",
-  "signature": "MEUCIBs+spzRMVh0te7XIW1EZGccL5wHpxm+IqZ3WvBIliV4AiEAuH02IGcEnX3G4m4sjWVgELkwBCMeai7CUMAtNAQVbfM=",
-  "rollout": 100,
-  "notes": "Safer Wi-Fi setup: required passwords, preserved settings on failed saves, persistent setup, and corrected restart handling. Source bc40768."
+  "version": "2026.10.08.1",
+  "url": "https://raw.githubusercontent.com/dslansky/scorebug-firmware/main/releases/standalone-2026.10.08.1.bin",
+  "size": 1058448,
+  "sha256": "9c2f1a614b231b2573e0a816ba6d5c74446789027ca2b7dc1dd9bd92ef3f50e7",
+  "signature": "MEUCIQDObBdrIjFmRAHrtuNL2t3B5oOo7GaoNHjucOvh3DWDnAIgViPg9oYJrPHS6dSjj5bnRgf6Da1iTCepiI5w/oFRNvg=",
+  "rollout": 72,
+  "notes": "Show the local settings address for six seconds on startup. Source 2266d06."
 }
