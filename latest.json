@@ -1,9 +1,9 @@
 {
-  "version": "2026.10.08.2",
-  "url": "https://raw.githubusercontent.com/dslansky/scorebug-firmware/main/releases/standalone-2026.10.08.2.bin",
-  "size": 1058592,
-  "sha256": "b3ee62d8008cd23f21c5128353a5fc5b657e6eeea0c541d8235b6e62e491cc48",
-  "signature": "MEQCIEPrWs542MEBflmSh+vrZ0EzkRYZeLCYDDY7fVSW8UUBAiA0kapjc5pXhWCSiGYMOv5CjUGBBy9k9jpSw0aPMKqy2A==",
+  "version": "2026.10.08.3",
+  "url": "https://raw.githubusercontent.com/dslansky/scorebug-firmware/main/releases/standalone-2026.10.08.3.bin",
+  "size": 1059568,
+  "sha256": "add2ccadcc257e042e0045eac795794478d09364505c88843012db5616b82af5",
+  "signature": "MEQCIB9RcSS/WLN2Bz6dRarKHS+lTTnarZ10cWgmN72sUGL5AiB80kvtSXAZ/mQadvkTjtEsWhcMKt7CyaOUGfym6VQxIg==",
   "rollout": 72,
-  "notes": "Explain on startup how to open the local settings page from a phone; show full URL for ten seconds. Source ff1d18c."
+  "notes": "Make startup settings instructions explicit, including browser steps and unplug/replug reminder. Source 18d4a82."
 }
